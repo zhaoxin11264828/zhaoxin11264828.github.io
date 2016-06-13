@@ -55,5 +55,9 @@
     	$('.show-menu').fadeOut('slow');
     });
 
+    $('.project-pages a').on('click',function(){
+    	$('box-content row2').css('display','none');
+    })
+
 
 })(jQuery);

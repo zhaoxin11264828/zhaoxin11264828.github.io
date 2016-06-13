@@ -613,13 +613,14 @@ h1, h2, h3, h4, h5 {
   display: inline-block;
 }
 .project-pages a {
-  width: 34px;
+  /*width: 34px;*/
   height: 34px;
   color: #333333;
   text-align: center;
   line-height: 34px;
-  display: block;
+  display: inline-block;
   background: #dddddd;
+  padding:0 5px;
 }
 .project-pages a:hover {
   background: #5cb48e;
