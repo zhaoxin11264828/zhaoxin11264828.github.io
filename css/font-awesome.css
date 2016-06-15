@@ -4,6 +4,34 @@
  */
 /* FONT PATH
  * -------------------------- */
+@font-face {font-family: "FontAwesome";
+  src: url('../fonts/iconfont.eot?t=1465956676'); /* IE9*/
+  src: url('../fonts/iconfont.eot?t=1465956676#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff?t=1465956676') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf?t=1465956676') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg?t=1465956676#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-qq:before { content: "\e634"; }
+.icon-qq01:before { content: "\e61a"; }
+.icon-QQ:before { content: "\e604"; }
+.icon-weixin:before { content: "\e698"; }
+.icon-weixin1:before { content: "\e614"; }
+.icon-zhihu:before { content: "\e608"; }
+.icon-zhihu1:before { content: "\e634"; }
+.icon-weibo:before { content: "\e633"; }
+.icon-weibo1:before { content: "\e881"; }
+.icon-wangyi:before { content: "\e67e"; }
+.icon-wangyi1:before { content: "\e647"; }
+ 
 @font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
